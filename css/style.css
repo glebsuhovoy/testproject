@@ -1,0 +1,529 @@
+@charset "utf-8";
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: #fff;
+	flex-direction: column;
+}
+
+/* Шапка сайта */
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	display: flex;
+
+}
+
+.logo {
+	margin-top: 32px;
+}
+
+.t {
+	width: 136px;
+}
+
+.menu {
+	margin-top: 38px;
+	display: flex;
+	justify-content: space-between;
+	width: 552px;
+}
+
+#header {
+	height: 1333px;
+}
+
+.menu a {
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: sans-serif;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 7px 10px 7px 10px;
+}
+
+.menu a:hover {
+	background-color: #00b0ff;
+	color: #fff;
+}
+
+.o {
+	width: 181px;
+}
+
+.social {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 32px;
+	width: 128px;
+	justify-content: space-between;
+}
+
+/* Слоган */
+.slogan  {
+	justify-content: center;
+	display: flex;
+	font-family: playfair display;
+	font-style: italic;
+
+}
+
+#slogan1 {
+	font-size: 50px;
+	color: #000;
+	margin-top: 147px;
+}
+
+#slogan2 {
+	font-size: 24px;
+	color: #fff;
+}
+
+/* Задний фон шапки */
+.bg1 {
+	width: 100%;
+	height: 700px;
+	background: #86d0f1 url(../img/fade.png) no-repeat;
+}
+
+/* Банер */
+.banner {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.mainpart {
+	margin-top: 155px;
+	width: 1030px;
+	height: 600px;
+	background: #fff url(../img/Corner.png) no-repeat;
+	display: flex;
+	box-shadow: 0px -8px 30px 0px rgba(0, 0, 0, 0.34);
+}
+
+/* Доска */
+.board {
+	margin-left: 27px;
+	margin-top: 46px;
+}
+
+/* Фото доски с других ракурсов */
+.boardimg {
+	margin-top: 157px;
+	height: 289px;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-left: 24px;
+}
+
+/* Информационный блок */
+.information {
+	margin-left: 48px;
+}
+
+.block1 {
+	display: flex;
+	height: 88px;
+}
+
+.block2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Заголовок блока */
+#caption {
+	margin-top: 45px;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Кнопки перелистования вперед, назад */
+.backward {
+	margin-top: 205px;
+}
+
+.forward {
+	margin-left: 81px;
+	margin-top: 50px;
+}
+
+/* Номер страницы */
+.namber {
+	width: 58px;
+	height: 38px;
+	background-color: #000;
+}
+
+.division {
+	font-family: Montserrat;
+	font-size: 14px;
+	color: #fff;
+	justify-content: center;
+	display: flex;
+	margin-top: 12px;
+}
+	
+
+
+/* Оценивание товара */
+.rating {
+	display: flex;
+	margin-top: 16px;
+}
+
+.star {
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: bold;
+	color: #787878;
+	margin-left: 7px;
+}
+
+/* Описание товара */
+.list{
+	width: 324px;
+	display: flex;
+	justify-content: space-between;
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 29px;
+}
+
+ .listgray a {
+	color: #a0a0a0;
+}
+
+.listblac a {
+	color: #000;
+}
+
+.underlining {
+	display: flex;
+	margin-top: 5px;
+}
+
+.shortlin {
+	width: 98px;
+	height: 3px;
+	background-color: #00b0ff;
+}
+
+.stronglin {
+	width: 298px;
+	height: 1px;
+	background-color: #d9d9d9;
+	margin-top: 2px;
+}
+
+.textbor {
+	font-family: Raleway;
+	font-size: 16px;
+	color: #a0a0a0; 
+	margin-top: 27px;
+	line-height: 1.5;
+	  
+}
+
+/* Покупка борда */
+.purchase {
+	display: flex;
+	height: 44px;
+	margin-top: 36px;
+}
+
+.price {
+	font-size: 24px;
+	font-family: Montserrat;
+	font-weight: bold;
+	margin-top: 7px;
+}
+
+.buy {
+	height: 44px;
+	width: 137px;
+	background-color: #00b0ff;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	justify-content: center;
+	display: flex;
+	padding-top: 14px;
+	margin-left: 29px;
+
+}
+
+/* Больше бордов */
+.allboard {
+	font-family: Montserrat;
+	font-size: 16px;
+	margin-top: 85px;
+}
+
+.allboard a {
+	color: #00b0ff;
+}
+
+.shortlining {
+	height: 2px;
+	width: 122px;
+	background-color: #00b0ff;
+	margin-top: 5px;
+}
+
+/* Центральная понель */
+.centralpanel {
+	height: 860px;
+	width: 100%;
+	display: flex;
+	padding-top: 296px;
+
+}
+
+.bg2 {
+	width: 100%;
+	height: 640px;
+	background: #fff url(../img/Board5.png) no-repeat;
+	display: flex;
+
+}
+
+/* Текстовое поле */
+.fdf {
+	width: 945px;
+	background-color: #fff;
+	margin-top: 296px;
+	padding-top: 100px;
+	display: flex;
+}
+
+.caption1 {
+	font-family: Montserrat;
+	font-size: 18px;
+	margin-left: 544px;
+}
+
+.xicon {
+	width: 244px;
+	margin-left: 654px;
+	margin-bottom: 34px;
+}
+
+.readtext {
+	font-family: Playfair Display;
+	font-size: 22px;
+	font-style: italic;
+	height: 286px;
+	margin-bottom: 33px;
+	margin-left: 474px;
+	line-height: 1.727;
+
+}
+
+.readmore {
+	color: #00b0ff;
+	font-family: Montserrat;
+	font-size: 16px;
+	margin-left: 474px;
+}
+
+.shortlining1 {
+	background-color: #00b0ff;
+	height: 2px;
+	width: 88px;
+	margin-top: 5px;
+}
+
+.readmore a {
+	color: #00b0ff;
+}
+
+/* Видео */
+.video {
+	height: 300px;
+	width: 500px;
+	background:  #f2d800 url(../img/Photo.png) no-repeat;
+	display: flex;
+	margin-left: 70px;
+	margin-top: 560px;
+}
+
+
+/*Пользователи*/
+.ourteam {
+	margin-top: 842px;
+	height: 308px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.buttomleft {
+	margin-top: 130px;
+	margin-left: 390px;
+}
+
+.teamcard1 {
+	height: 278px;
+	width: 260px;
+	border-radius: 4px;
+	box-shadow: 10px 17.321px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.teamcard2 {
+	height: 278px;
+	width: 260px;
+	margin-top: 30px;
+	border-radius: 4px;
+	box-shadow: 10px 17.321px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.teamcard3 {
+	height: 278px;
+	width: 260px;
+	border-radius: 4px;
+	box-shadow: 10px 17.321px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.teamcard4 {
+	height: 278px;
+	width: 260px;
+	margin-top: 30px;
+	border-radius: 4px;
+	box-shadow: 10px 17.321px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ava {
+	margin-top: 28px;
+	justify-content: center;
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.namecard {
+	font-family: Montserrat;
+	font-size: 18px;
+	color: #58c1ff;
+	justify-content: center;
+	display: flex;
+	margin-bottom: 3px;
+}
+
+.mail {
+	font-size: 14px;
+	color: #8c8c8c;
+	justify-content: center;
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.imgline {
+	justify-content: center;
+	display: flex;
+	margin-bottom: 15px;
+}
+
+
+
+.location {
+	display: flex;
+	justify-content: center;
+}
+
+
+.loctext {
+	font-size: 14px;
+	margin-left: 6px;
+	color: #8c8c8c;
+}
+
+.buttomright {
+	margin-top: 130px;
+	margin-right: 390px;
+	
+}
+
+
+
+.sectiontitle {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	font-family: Montserrat;
+	font-size: 18px;
+	margin-top: 180px;
+	margin-bottom: 20px;
+}
+
+.xicon1 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 40px;
+
+}
+
+.posts {
+	display: flex;
+	height: 344px;
+	width: 100%;
+	justify-content: center;
+}
+
+.post {
+	height: 344px;
+	width: 270px;
+	font-size: 16px;
+	
+}
+
+.post a {
+	color: #8a8a8a;
+}
+
+.postimg {
+	height: 203px;
+	width: 270px;
+}
+
+.posttext {
+	margin-left: 26px;
+	margin-top: 27px;
+}
+
+.post a:hover {
+	color: #223fff;
+}
+
+.post:hover {
+	box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+  
+
+	
+
+  
